@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <!-- Original Mod by: Roland Darktower (formerly Meeotwo), 57 Rogue of Tribunal -->
+  <!-- The wierd tabbing is Roland's fault, I'm not sure why :) -->
+  <!-- Redone by: Remelio Gemweaver -->
+  <Label item="LW_CorpseName">
+    <ScreenID>LW_CorpseName</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>30</CY>
+    </Size>
+    <Text>Blahblahblah's Corpse</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <Style_Tooltip>false</Style_Tooltip>
+  </Label>
+  <Button item="LW_Unclickable">
+    <ScreenID>LW_Unclickable</ScreenID>
+    <Size>
+      <CX>90</CX>
+      <CY>15</CY>
+    </Size>
+    <Location>
+      <X>0</X>
+      <Y>16</Y>
+    </Location>
+  </Button>
+  <InvSlot item="LW_LootSlot0">
+    <ScreenID>LW_LootSlot0</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>31</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 0</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot1">
+    <ScreenID>LW_LootSlot1</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>31</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 1</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot2">
+    <ScreenID>LW_LootSlot2</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>31</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 2</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot3">
+    <ScreenID>LW_LootSlot3</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>61</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 3</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot4">
+    <ScreenID>LW_LootSlot4</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>61</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 4</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot5">
+    <ScreenID>LW_LootSlot5</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>61</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 5</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot6">
+    <ScreenID>LW_LootSlot6</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>91</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 6</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot7">
+    <ScreenID>LW_LootSlot7</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>91</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 7</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot8">
+    <ScreenID>LW_LootSlot8</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>91</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 8</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot9">
+    <ScreenID>LW_LootSlot9</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>121</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 9</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot10">
+    <ScreenID>LW_LootSlot10</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>121</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 10</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot11">
+    <ScreenID>LW_LootSlot11</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>121</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 11</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot12">
+    <ScreenID>LW_LootSlot12</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>151</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 12</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot13">
+    <ScreenID>LW_LootSlot13</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>151</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 13</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot14">
+    <ScreenID>LW_LootSlot14</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>151</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 14</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot15">
+    <ScreenID>LW_LootSlot15</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>181</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 15</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot16">
+    <ScreenID>LW_LootSlot16</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>181</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 16</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot17">
+    <ScreenID>LW_LootSlot17</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>181</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 17</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot18">
+    <ScreenID>LW_LootSlot18</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>211</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 18</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot19">
+    <ScreenID>LW_LootSlot19</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>211</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 19</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot20">
+    <ScreenID>LW_LootSlot20</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>211</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 20</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot21">
+    <ScreenID>LW_LootSlot21</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>241</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 21</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot22">
+    <ScreenID>LW_LootSlot22</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>241</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 22</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot23">
+    <ScreenID>LW_LootSlot23</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>241</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 23</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot24">
+    <ScreenID>LW_LootSlot24</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>271</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 24</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot25">
+    <ScreenID>LW_LootSlot25</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>271</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 25</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot26">
+    <ScreenID>LW_LootSlot26</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>271</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 26</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot27">
+    <ScreenID>LW_LootSlot27</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>301</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 27</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot28">
+    <ScreenID>LW_LootSlot28</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>301</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 28</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot29">
+    <ScreenID>LW_LootSlot29</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>301</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 29</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot30">
+    <ScreenID>LW_LootSlot30</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>331</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 30</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot31">
+    <ScreenID>LW_LootSlot31</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>331</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 31</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot32">
+    <ScreenID>LW_LootSlot32</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>331</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 32</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <InvSlot item="LW_LootSlot33">
+    <ScreenID>LW_LootSlot33</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>361</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Background>A_RecessedBox</Background>
+    <EQType>inventory/Loot 33</EQType>
+    <ItemOffsetX>2</ItemOffsetX>
+    <ItemOffsetY>2</ItemOffsetY>
+  </InvSlot>
+  <Button item="LW_DoneButton">
+    <ScreenID>DoneButton</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>false</Style_Checkbox>
+    <!--<RadioGroup/>-->
+    <Text>Done</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BigBtnNormal</Normal>
+      <Pressed>A_BigBtnPressed</Pressed>
+      <Flyby>A_BigBtnFlyby</Flyby>
+      <Disabled>A_BigBtnDisabled</Disabled>
+      <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+    <Size>
+      <CX>90</CX>
+      <CY>30</CY>
+    </Size>
+    <Location>
+      <X>0</X>
+      <Y>391</Y>
+    </Location>
+  </Button>
+  <Button item="LW_BroadcastButton">
+    <ScreenID>BroadcastButton</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>30</X>
+      <Y>361</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>false</Style_Checkbox>
+    <!--<RadioGroup/>-->
+    <Text>Link</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BigBtnNormal</Normal>
+      <Pressed>A_BigBtnPressed</Pressed>
+      <Flyby>A_BigBtnFlyby</Flyby>
+      <Disabled>A_BigBtnDisabled</Disabled>
+      <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="LW_LootAllButton">
+    <ScreenID>LootAllButton</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>361</Y>
+    </Location>
+    <Size>
+      <CX>30</CX>
+      <CY>30</CY>
+    </Size>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <Style_Checkbox>false</Style_Checkbox>
+    <!--<RadioGroup/>-->
+    <Text>Loot</Text>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BigBtnNormal</Normal>
+      <Pressed>A_BigBtnPressed</Pressed>
+      <Flyby>A_BigBtnFlyby</Flyby>
+      <Disabled>A_BigBtnDisabled</Disabled>
+      <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Screen item="LW_LootInvWnd">
+    <ScreenID>LootInvWnd</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>-10</X>
+      <Y>-10</Y>
+    </Location>
+    <Size>
+      <CX>1</CX>
+      <CY>1</CY>
+    </Size>
+    <Style_VScroll>true</Style_VScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <DrawTemplate>WDT_Inner</DrawTemplate>
+  </Screen>
+  <Screen item="LootWnd">
+    <!--<ScreenID/>-->
+    <!--<Font/>-->
+    <RelativePosition>true</RelativePosition>
+    <Text>Loot</Text>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <Style_Titlebar>false</Style_Titlebar>
+    <Style_Closebox>false</Style_Closebox>
+    <Style_Minimizebox>false</Style_Minimizebox>
+    <Style_Border>false</Style_Border>
+    <Style_Sizable>false</Style_Sizable>
+    <Location>
+      <X>0</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>420</CY>
+    </Size>
+    <Pieces>LW_CorpseName</Pieces>
+    <Pieces>LW_Unclickable</Pieces>
+    <Pieces>LW_DoneButton</Pieces>
+    <Pieces>LW_LootSlot0</Pieces>
+    <Pieces>LW_LootSlot1</Pieces>
+    <Pieces>LW_LootSlot2</Pieces>
+    <Pieces>LW_LootSlot3</Pieces>
+    <Pieces>LW_LootSlot4</Pieces>
+    <Pieces>LW_LootSlot5</Pieces>
+    <Pieces>LW_LootSlot6</Pieces>
+    <Pieces>LW_LootSlot7</Pieces>
+    <Pieces>LW_LootSlot8</Pieces>
+    <Pieces>LW_LootSlot9</Pieces>
+    <Pieces>LW_LootSlot10</Pieces>
+    <Pieces>LW_LootSlot11</Pieces>
+    <Pieces>LW_LootSlot12</Pieces>
+    <Pieces>LW_LootSlot13</Pieces>
+    <Pieces>LW_LootSlot14</Pieces>
+    <Pieces>LW_LootSlot15</Pieces>
+    <Pieces>LW_LootSlot16</Pieces>
+    <Pieces>LW_LootSlot17</Pieces>
+    <Pieces>LW_LootSlot18</Pieces>
+    <Pieces>LW_LootSlot19</Pieces>
+    <Pieces>LW_LootSlot20</Pieces>
+    <Pieces>LW_LootSlot21</Pieces>
+    <Pieces>LW_LootSlot22</Pieces>
+    <Pieces>LW_LootSlot23</Pieces>
+    <Pieces>LW_LootSlot24</Pieces>
+    <Pieces>LW_LootSlot25</Pieces>
+    <Pieces>LW_LootSlot26</Pieces>
+    <Pieces>LW_LootSlot27</Pieces>
+    <Pieces>LW_LootSlot28</Pieces>
+    <Pieces>LW_LootSlot29</Pieces>
+    <Pieces>LW_LootSlot30</Pieces>
+    <Pieces>LW_LootSlot31</Pieces>
+    <Pieces>LW_LootSlot32</Pieces>
+    <Pieces>LW_LootSlot33</Pieces>
+    <Pieces>LW_LootInvWnd</Pieces>
+    <Pieces>LW_LootAllButton</Pieces>
+    <Pieces>LW_BroadcastButton</Pieces>
+  </Screen>
+</XML>

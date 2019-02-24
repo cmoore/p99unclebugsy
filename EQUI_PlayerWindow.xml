@@ -2745,7 +2745,7 @@
 		</Location>
 		<Size>
 			<CX>147</CX>
-			<CY>185</CY>
+			<CY>63</CY>
 		</Size>
 		<Text>Player</Text>
 		<Style_VScroll>false</Style_VScroll>
@@ -2758,12 +2758,12 @@
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		
-		<Pieces>HPNumber1</Pieces>
+		<!-- <Pieces>HPNumber1</Pieces> -->
 		<Pieces>Player_HPblack</Pieces>
 		<Pieces>Player_Name</Pieces>
-		<Pieces>Player_Diety</Pieces>
+		<!-- <Pieces>Player_Diety</Pieces> -->
 		<Pieces>Player_level</Pieces>
-		<Pieces>Player_Class</Pieces>
+		<!-- <Pieces>Player_Class</Pieces> -->
 		<Pieces>PW_Guage_BlackBgd</Pieces>		
 		<Pieces>PW_HP_Gauge0</Pieces>
 		<Pieces>PW_HP_Gauge1A_X</Pieces>
@@ -2793,47 +2793,47 @@
 		<Pieces>Player_ManaPercLabel</Pieces>
 		<Pieces>XP_Percent</Pieces>
 		<Pieces>XP_Fig</Pieces>
-		<Pieces>PW_MagicBack</Pieces>
-		<Pieces>PW_MagicImage</Pieces>
-		<Pieces>PW_FireBack</Pieces>
-		<Pieces>PW_FireImage</Pieces>
-		<Pieces>PW_ColdBack</Pieces>
-		<Pieces>PW_ColdImage</Pieces>
-		<Pieces>PW_DiseaseBack</Pieces>
-		<Pieces>PW_DiseaseImage</Pieces>
-		<Pieces>PW_PoisonBack</Pieces>
-		<Pieces>PW_PoisonImage</Pieces>
-		<Pieces>PW_FireBox</Pieces>
-		<Pieces>PW_ColdBox</Pieces>
-		<Pieces>PW_MagicBox</Pieces>
-		<Pieces>PW_DiseaseBox</Pieces>
-		<Pieces>PW_PoisonBox</Pieces>
-		<Pieces>PR_Numb</Pieces>
-		<Pieces>MR_Numb</Pieces>
-		<Pieces>DR_Numb</Pieces>
-		<Pieces>FR_Numb</Pieces>
-		<Pieces>CR_Numb</Pieces>
+		<!-- <Pieces>PW_MagicBack</Pieces> -->
+		<!-- <Pieces>PW_MagicImage</Pieces> -->
+		<!-- <Pieces>PW_FireBack</Pieces> -->
+		<!-- <Pieces>PW_FireImage</Pieces> -->
+		<!-- <Pieces>PW_ColdBack</Pieces> -->
+		<!-- <Pieces>PW_ColdImage</Pieces> -->
+		<!-- <Pieces>PW_DiseaseBack</Pieces> -->
+		<!-- <Pieces>PW_DiseaseImage</Pieces> -->
+		<!-- <Pieces>PW_PoisonBack</Pieces> -->
+		<!-- <Pieces>PW_PoisonImage</Pieces> -->
+		<!-- <Pieces>PW_FireBox</Pieces> -->
+		<!-- <Pieces>PW_ColdBox</Pieces> -->
+		<!-- <Pieces>PW_MagicBox</Pieces> -->
+		<!-- <Pieces>PW_DiseaseBox</Pieces> -->
+		<!-- <Pieces>PW_PoisonBox</Pieces> -->
+		<!-- <Pieces>PR_Numb</Pieces> -->
+		<!-- <Pieces>MR_Numb</Pieces> -->
+		<!-- <Pieces>DR_Numb</Pieces> -->
+		<!-- <Pieces>FR_Numb</Pieces> -->
+		<!-- <Pieces>CR_Numb</Pieces> -->
 
 		
 		
-		<Pieces>Player_EndBox</Pieces>
-		<Pieces>Player_ACBox</Pieces>
-		<Pieces>Player_ATKBox</Pieces>
-		<Pieces>Player_WGTBox</Pieces>
+		<!-- <Pieces>Player_EndBox</Pieces> -->
+		<!-- <Pieces>Player_ACBox</Pieces> -->
+		<!-- <Pieces>Player_ATKBox</Pieces> -->
+		<!-- <Pieces>Player_WGTBox</Pieces> -->
 
 		
 		
-		<Pieces>Player_EndIcon</Pieces>
-		<Pieces>Player_ACIcon</Pieces>
-		<Pieces>Player_ATKIcon</Pieces>
-		<Pieces>Player_WGTIcon</Pieces>
+		<!-- <Pieces>Player_EndIcon</Pieces> -->
+		<!-- <Pieces>Player_ACIcon</Pieces> -->
+		<!-- <Pieces>Player_ATKIcon</Pieces> -->
+		<!-- <Pieces>Player_WGTIcon</Pieces> -->
 
-		<Pieces>ManaNumb</Pieces>
-		<Pieces>EndNumb</Pieces>
-		<Pieces>ACNumb</Pieces>
-		<Pieces>ATKNumber</Pieces>
-		<Pieces>WGTNumber</Pieces>
-		<Pieces>WGTNumberTot</Pieces>
+		<!-- <Pieces>ManaNumb</Pieces> -->
+		<!-- <Pieces>EndNumb</Pieces> -->
+		<!-- <Pieces>ACNumb</Pieces> -->
+		<!-- <Pieces>ATKNumber</Pieces> -->
+		<!-- <Pieces>WGTNumber</Pieces> -->
+		<!-- <Pieces>WGTNumberTot</Pieces> -->
 
 		
 		<Pieces>A_AttackIndicatorAnim</Pieces>

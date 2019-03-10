@@ -1075,7 +1075,7 @@
 				<G>220</G>
 				<B>220</B>
 		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
+		<DrawLinesFill>true</DrawLinesFill>
 		<EQType>2</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_GaugeBackground</Background>
@@ -1177,7 +1177,7 @@
 				<G>159</G>
 				<B>250</B>
 		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
+		<DrawLinesFill>true</DrawLinesFill>
 		<EQType>4</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_GaugeBackground</Background>

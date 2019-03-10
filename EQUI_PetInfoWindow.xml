@@ -456,12 +456,12 @@
 				<G>0</G>
 				<B>0</B>
 		</FillTint>
-		<LinesFillTint>
-				<R>0</R>
-				<G>0</G>
-				<B>0</B>
+    <LinesFillTint>
+				<R>52</R>
+				<G>159</G>
+				<B>250</B>
 		</LinesFillTint>
-		<DrawLinesFill>false</DrawLinesFill>
+		<DrawLinesFill>true</DrawLinesFill>
 		<EQType>16</EQType>
 		<GaugeDrawTemplate>
 			<Background>A_GaugeBackground</Background>
@@ -673,7 +673,7 @@
 		</Location>
 		<Size>
 			<CX>122</CX>
-			<CY>122</CY>
+			<CY>30</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -684,17 +684,17 @@
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>true</Style_Minimizebox>
-		<Style_Border>true</Style_Border>
+		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		<Pieces>PIW_BuffWindow</Pieces>
-		<Pieces>PIW_AttackButton</Pieces>
-		<Pieces>PIW_LostButton</Pieces>
-		<Pieces>PIW_BackButton</Pieces>
-		<Pieces>PIW_GuardButton</Pieces>
-		<Pieces>PIW_FollowButton</Pieces>
-		<Pieces>PIW_TauntButton</Pieces>
-		<Pieces>PIW_SitButton</Pieces>
-		<Pieces>PIW_StandButton</Pieces>
+		<!-- <Pieces>PIW_BuffWindow</Pieces> -->
+		<!-- <Pieces>PIW_AttackButton</Pieces> -->
+		<!-- <Pieces>PIW_LostButton</Pieces> -->
+		<!-- <Pieces>PIW_BackButton</Pieces> -->
+		<!-- <Pieces>PIW_GuardButton</Pieces> -->
+		<!-- <Pieces>PIW_FollowButton</Pieces> -->
+		<!-- <Pieces>PIW_TauntButton</Pieces> -->
+		<!-- <Pieces>PIW_SitButton</Pieces> -->
+		<!-- <Pieces>PIW_StandButton</Pieces> -->
 		<Pieces>PIW_PetHPGauge</Pieces>
 		<!--<Pieces>PIW_Pet_HPLabel</Pieces>
 		<Pieces>PIW_Pet_HPPercLabel</Pieces>-->
